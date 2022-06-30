@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+    <title>
+      Filtered Image
+    </title>
+<body>
+<h1> Filtered Image </h1>
+
+
+<canvas id="can">
+        </canvas>
+
+<p>
+ <b> Upload Image </b> 
+  <br>
+  <br>
+  <input type="file" id="input"  multiple="false" accept="image/*" class="button" onchange="upload()">
+</p>
+
+<p>
+  <b> Filters </b> 
+  <br>
+  <br>
+  <span id="arrows1" class="icons"> &#8644;</span>
+  <input type="button" id="graybutton" value="Grey" class="button" onclick="doGray()">
+
+  <input type="button" id="tealbutton"  value="Teal" class="button" onclick="doTeal()">
+
+<input type="button" id="redbutton"  value="Red" class="button" onclick="doRed()">
+ 
+ <input type="button" id="brightbutton"  value="Brighter" class="button" onclick="doBright()">
+  
+  <input type="button" id="rainbowbutton"  value="Rainbow" class="button" onclick="doRainbow()">
+
+<input type="button" id="clearbutton"  value="Clear" class="button" onclick="doClear()">
+</p>
+  </body>
+</html>

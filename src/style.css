@@ -1,0 +1,48 @@
+body {
+  background-color: #FFFAFA; /*snow*/
+  font-family: helvetica;
+}
+
+h1 {
+  color: black;
+  text-align: left;
+}
+
+p {
+ 
+  border-bottom: solid;
+  border-color: black;
+  font-size: 20px;
+
+}
+
+
+canvas {
+  width:400px;
+  height:200px;
+  
+}
+
+.button {
+  background-color:#FFFAFA; /*snow*/
+  border: none;
+  color: #000000; /* Black */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  Padding:20px;
+
+}
+
+.button:hover {
+  
+  color: #FF4500;/* RedOrange */
+}
+
+.icons{
+  font-size:50px;
+}
